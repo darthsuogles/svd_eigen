@@ -1,4 +1,4 @@
 *~
 *.out
 eigen
-svd
+svd_pinv
