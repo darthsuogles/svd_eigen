@@ -5,11 +5,11 @@ Moore-Penrose pseudo-inverse with Eigen3
    #+BEGIN_SRC sh
      ./build_eigen
    #+END_SRC
-2. Extract to current directory eigen-3.2.1
-3. Compile the code with 
-#+BEGIN_SRC sh  
- g++ svd_eigen.cpp -I./eigen-3.2.1
-#+END_SRC
+2. Extract to current directory eigen/3.2.1
+3. Compile the source code 
+   #+BEGIN_SRC sh  
+     g++ svd_eigen.cpp -I./eigen/3.2.1
+   #+END_SRC
 
 The source code 
 #+BEGIN_SRC c++ 
